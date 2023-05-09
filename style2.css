@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+:root {
+    --color-1: #0e0c0c;
+    --color-2: #171717;
+    --color-3: #a8a29e;
+    --color-4: #f5f5f5;
+}
+
+main {
+    height: 80.0vh;
+}
+
+footer {
+    width: 100%;
+    color: var(--color-4);
+}
+
+footer .content {
+    background-color: var(--color-2);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer-contacts h1{
+    margin-bottom: 0.75rem;
+}
+
+#socialmidia {
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    margin-top: 1.5rem;
+}
+
+#socialmidia .link {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-4);
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+#socialmidia .link i {
+    font-size: 1.25rem;
+}
+
+#socialmidia .link:hover {
+    opacity: 0.8;
+}
+
+#insta {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#face {
+    background-color: #4267b3;
+}
+
+#whats {
+    background-color: #25d366;
+}
+
+#footer-list {
+    display: grid;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+#footer-list a{
+    color: var(--color-3);
+    transition: all 0.4s;
+}
+
+#footer-list a:hover {
+    color: #7f37c9;
+}
+
+#footer-escrever {
+    display: grid;
+    gap: 1.5rem;
+}
+
+#footer-escrever p{
+    color: var(--color-3);
+}
+
+#grupoInput {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    background-color: var(--color-1);
+    border-radius: 4px;
+}
+
+#grupoInput input{
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+#grupoInput button {
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-4);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#grupoInput button:hover {
+    opacity: 0.8;
+}
+
+#direitos {
+    background-color: var(--color-1);
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
